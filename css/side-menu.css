@@ -81,8 +81,8 @@ appears on the left side of the page.
     position: fixed;
     display: block;
     z-index: 10;
-    width: 6em;
-    height: 6em;
+    width: 3em;
+    height: 3em;
 
 }
 .menu-link img{
