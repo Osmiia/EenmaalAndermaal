@@ -36,7 +36,7 @@ The content `<div>` is where all your content goes.
     height: 100%;
     position: fixed;
     display: block;
-    top: 6em;
+    top: 3em;
     left: 0;
     background-color: #efefef;
 }
@@ -138,6 +138,9 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 		scroll:none;
 
     }
+	#content{
+	top:6em;
+	}
 	#menu{
         width:0%;
 	}
