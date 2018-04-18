@@ -81,13 +81,13 @@ appears on the left side of the page.
     position: fixed;
     display: block;
     z-index: 10;
-    width: 3em;
-    height: 3em;
+    width: 6em;
+    height: 6em;
 
 }
 .menu-link img{
-    width:3em;
-    height:3em;
+    width:6em;
+    height:6em;
 }
 
     .menu-link:hover,
@@ -149,6 +149,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 	}
     #logo{
         display:block;
+	height:5em;
         margin-right: auto;
         margin-left:auto;
     }
