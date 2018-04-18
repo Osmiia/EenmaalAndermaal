@@ -65,7 +65,7 @@ appears on the left side of the page.
 #menu {
     width: 20em;
     position: fixed;
-    top: 6em;
+    top: 3em;
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
@@ -142,6 +142,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 	top:6em;
 	}
 	#menu{
+		top:6em;
         width:0%;
 	}
     #menu.active{
