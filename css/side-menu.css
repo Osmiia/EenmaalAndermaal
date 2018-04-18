@@ -175,6 +175,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         vertical-align:center;
         float:left;
         margin-top:4em;
+	    margin-left:4em;
     }
 	#menu{
 		top:6em;
