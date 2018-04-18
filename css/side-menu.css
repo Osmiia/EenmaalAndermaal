@@ -145,7 +145,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 
     }
 	#header{
-	height:5em;
+	height:6em;
 	}
     #logo{
         display:block;
