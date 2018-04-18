@@ -86,8 +86,8 @@ appears on the left side of the page.
 
 }
 .menu-link img{
-    width:6em;
-    height:6em;
+    width:3em;
+    height:3em;
 }
 
     .menu-link:hover,
@@ -147,6 +147,11 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 	#header{
 	height:6em;
 	}
+	.menu-link img{
+    width:6em;
+    height:6em;
+}
+
     #logo{
         display:block;
 	height:5em;
