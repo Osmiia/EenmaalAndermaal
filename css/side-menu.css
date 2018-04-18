@@ -36,14 +36,14 @@ The content `<div>` is where all your content goes.
     height: 100%;
     position: fixed;
     display: block;
-    top: 3em;
+    top: 6em;
     left: 0;
     background-color: #efefef;
 }
 #header{
     padding:0;
     width:100%;
-    height: 3em;
+    height: 5em;
     position: fixed;
     display: block;
     top: 0;
@@ -65,7 +65,7 @@ appears on the left side of the page.
 #menu {
     width: 20em;
     position: fixed;
-    top: 3em;
+    top: 6em;
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
