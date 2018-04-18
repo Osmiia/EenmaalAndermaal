@@ -140,12 +140,13 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 	#menu{
         width:0%;
-	height:5em;
-
 	}
     #menu.active{
 
     }
+	#header{
+	height:5em;
+	}
     #logo{
         display:block;
         margin-right: auto;
