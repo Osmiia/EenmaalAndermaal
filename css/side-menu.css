@@ -43,7 +43,7 @@ The content `<div>` is where all your content goes.
 #header{
     padding:0;
     width:100%;
-    height: 5em;
+    height: 6em;
     position: fixed;
     display: block;
     top: 0;
