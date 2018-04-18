@@ -149,6 +149,11 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 	#header{
 	height:6em;
+		z-index:9;
+	}
+	.menu-link{
+	height:6em;
+		width:6em;
 	}
 	.menu-link img{
     width:6em;
