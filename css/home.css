@@ -275,7 +275,7 @@ html{
     #zoekbalk.active{
         height:6em;
         background-color:#2f2f2f;
-        width:80%;
+        width:calc(100% - 6em);
         z-index:99999999;
         float:right;
         position:fixed;
@@ -292,7 +292,7 @@ html{
         border: none;
         position:fixed;
         height:4.7em;
-        width:80%;
+        width:calc(100% - 6em);
         text-align: center;
         margin:0;
         font-size:20px;
