@@ -107,7 +107,9 @@ html {
     right: 0;
     top: 0;
 }
-
+.zoek-link.active{
+    background-color: #2f2f2f;
+}
 .zoek-link:hover {
     background-color: #2f2f2f;
 }
@@ -223,19 +225,21 @@ html {
 .menu-link {
     position: fixed;
     display: block;
+    background-color:#88B04B;
     z-index: 10;
     width: 3em;
     height: 3em;
 
 }
-
+.menu-link.active{
+    background-color:#2f2f2f;
+}
 .menu-link img {
     width: 3em;
     height: 3em;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover{
     background: #2f2f2f;
 }
 
@@ -272,10 +276,13 @@ html {
     background-color: #2f2f2f;
 }
 
-#rubrieken {
+#rubrieken h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
 }
 
-#rubrieken h1 {
+#siteinfo h1 {
     margin-bottom: 10px;
     font-size: 25px;
     text-align: center;
@@ -330,7 +337,6 @@ html {
         top: 0;
         z-index: 99999;
     }
-
     .zoek-link img {
         margin: 1em;
         height: 4em;
@@ -386,9 +392,8 @@ html {
         border-bottom: 2px #2f2f2f solid;
     }
     .titel{
-    font-size:20px;
+        font-size:20px;
     }
-
     .veilingimagebox {
         float: left;
         margin-top: 5px;
