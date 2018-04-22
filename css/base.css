@@ -385,6 +385,9 @@ html {
         font-size: 4vw;
         border-bottom: 2px #2f2f2f solid;
     }
+    .titel{
+    font-size:22px;
+    }
 
     .veilingimagebox {
         float: left;
